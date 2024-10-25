@@ -6,5 +6,5 @@ part 'shared_preferences_provider.g.dart';
 
 @Riverpod(keepAlive: true)
 SharedPreferences sharedPreferences(Ref ref) {
-  throw UnimplementedError();
+  throw UnimplementedError('sharedPreferences is not implemented');
 }

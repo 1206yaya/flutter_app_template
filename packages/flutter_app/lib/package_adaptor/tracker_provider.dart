@@ -9,5 +9,5 @@ part 'tracker_provider.g.dart';
 /// `main.dart` にて、Flutterフレームワークのエラーを記録したいので、ProviderScopeでのオーバーライド前提としている。
 @Riverpod(keepAlive: true)
 Tracker tracker(Ref ref) {
-  throw UnimplementedError();
+  throw UnimplementedError('tracker is not implemented');
 }

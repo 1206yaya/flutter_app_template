@@ -9,6 +9,7 @@ appInfo:
 author:
   name: "Altive inc"
 button:
+  really: "Really?"
   cancel: "Cancel"
   sign:
     out: "Sign out"

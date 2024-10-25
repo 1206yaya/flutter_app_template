@@ -39,6 +39,20 @@
       "type": "dart",
       "flutterMode": "release",
       "args": ["--dart-define-from-file=dart_defines/dev.env"]
+    },
+    {
+      "name": "Integration Test Debug (Specific iOS Device)",
+      "request": "launch",
+      "cwd": "packages/flutter_app",
+      "type": "dart",
+      "program": "integration_test/login_flow_test.dart",
+      "args": [
+        "--start-paused",
+        "--dart-define-from-file=dart_defines/dev.env"
+      ],
+      // iOSシミュレータのデバイスID
+      // flutter devices コマンドで確認できる
+      "deviceId": "5F935E5D-1B50-4133-A16C-F9B3CCA5CB2B"
     }
   ]
 }

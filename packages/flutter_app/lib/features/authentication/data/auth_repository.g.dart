@@ -2,48 +2,45 @@
 
 // ignore_for_file: duplicate_ignore, type=lint, implicit_dynamic_parameter, implicit_dynamic_type, implicit_dynamic_method, strict_raw_type
 
-part of 'authenticator_provider.dart';
+part of 'auth_repository.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$authenticatorHash() => r'6925c886cb4003fcd1a57aa84d0f353279d6594a';
+String _$authRepositoryHash() => r'632c20222958d9e4b6f42cc7fda3badea8784b7f';
 
-/// `[zakfire_authenticator]` パッケージの [Authenticator] クラスインスタンスを提供する。
-///
-/// Copied from [authenticator].
-@ProviderFor(authenticator)
-final authenticatorProvider = Provider<Authenticator>.internal(
-  authenticator,
-  name: r'authenticatorProvider',
+/// See also [authRepository].
+@ProviderFor(authRepository)
+final authRepositoryProvider = Provider<AuthRepository>.internal(
+  authRepository,
+  name: r'authRepositoryProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
       ? null
-      : _$authenticatorHash,
+      : _$authRepositoryHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
-typedef AuthenticatorRef = ProviderRef<Authenticator>;
-String _$userHash() => r'2a5c88c5ec8c1a3eacb778b712f7c7b3b1a9f785';
+typedef AuthRepositoryRef = ProviderRef<AuthRepository>;
+String _$authStateChangesHash() => r'88843e82971b73d0ac241fc882b4b07667657b6e';
 
-/// Firebase Authの[User]情報を提供する。
-///
-/// Copied from [user].
-@ProviderFor(user)
-final userProvider = AutoDisposeStreamProvider<User?>.internal(
-  user,
-  name: r'userProvider',
-  debugGetCreateSourceHash:
-      const bool.fromEnvironment('dart.vm.product') ? null : _$userHash,
+/// See also [authStateChanges].
+@ProviderFor(authStateChanges)
+final authStateChangesProvider = StreamProvider<User?>.internal(
+  authStateChanges,
+  name: r'authStateChangesProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$authStateChangesHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
-typedef UserRef = AutoDisposeStreamProviderRef<User?>;
+typedef AuthStateChangesRef = StreamProviderRef<User?>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

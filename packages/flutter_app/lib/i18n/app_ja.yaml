@@ -9,6 +9,7 @@ appInfo:
 author:
   name: "Altive株式会社"
 button:
+  really: "本当によろしいですか？"
   cancel: "キャンセル"
   sign:
     out: "サインアウト"

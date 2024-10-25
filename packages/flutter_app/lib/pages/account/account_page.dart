@@ -1,4 +1,3 @@
-import 'package:awaitable_button/awaitable_button.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -34,16 +33,21 @@ class _Body extends HookConsumerWidget {
         context: context,
         builder: (context) {
           return AlertDialog(
-            title: const Text('Sign out'),
-            content: const Text('Really?'),
+            title: Text(
+              t.button.sign.out,
+            ),
+            content: Text(t.button.really),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context, false),
                 child: Text(t.button.cancel),
               ),
               TextButton(
+                key: const Key('alert-sign-out-button'),
                 onPressed: () => Navigator.pop(context, true),
-                child: Text(t.button.sign.out),
+                child: Text(
+                  t.button.sign.out,
+                ),
               ),
             ],
           );
@@ -62,9 +66,12 @@ class _Body extends HookConsumerWidget {
           title: const Text('UID:'),
           subtitle: Text(ref.watch(userProvider).valueOrNull?.uid ?? 'none'),
         ),
-        AwaitableTextButton<void>(
+        TextButton(
+          key: const Key('primary-sign-out-button'),
           onPressed: signOut,
-          child: Text(t.button.sign.out),
+          child: Text(
+            t.button.sign.out,
+          ),
         ),
       ],
     );

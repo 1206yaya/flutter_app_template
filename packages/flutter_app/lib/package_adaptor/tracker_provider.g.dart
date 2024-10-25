@@ -8,7 +8,7 @@ part of 'tracker_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$trackerHash() => r'8b77cc11d593f46376606aaa14800a713c90d7c9';
+String _$trackerHash() => r'0ea7b1d1a3cc1d4983b04c40a3056c8bfab2b7dc';
 
 /// `altfire_tracker` パッケージの [Tracker] クラスインスタンスを提供する。
 ///

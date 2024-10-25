@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 2
-/// Strings: 54 (27 per locale)
+/// Strings: 56 (28 per locale)
 ///
-/// Built on 2024-08-07 at 09:24 UTC
+/// Built on 2024-10-25 at 07:39 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -198,6 +198,7 @@ class _StringsButtonJa {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+	String get really => '本当によろしいですか？';
 	String get cancel => 'キャンセル';
 	late final _StringsButtonSignJa sign = _StringsButtonSignJa._(_root);
 }
@@ -571,6 +572,7 @@ class _StringsButtonEn implements _StringsButtonJa {
 	@override final _StringsEn _root; // ignore: unused_field
 
 	// Translations
+	@override String get really => 'Really?';
 	@override String get cancel => 'Cancel';
 	@override late final _StringsButtonSignEn sign = _StringsButtonSignEn._(_root);
 }
@@ -880,6 +882,7 @@ extension on Translations {
 			case 'accountPage.appBar.title': return 'アカウント';
 			case 'appInfo.appBar.title': return 'アプリ情報';
 			case 'author.name': return 'Altive株式会社';
+			case 'button.really': return '本当によろしいですか？';
 			case 'button.cancel': return 'キャンセル';
 			case 'button.sign.out': return 'サインアウト';
 			case 'homePage.appBar.title': return 'Home';
@@ -915,6 +918,7 @@ extension on _StringsEn {
 			case 'accountPage.appBar.title': return 'Account';
 			case 'appInfo.appBar.title': return 'App information';
 			case 'author.name': return 'Altive inc';
+			case 'button.really': return 'Really?';
 			case 'button.cancel': return 'Cancel';
 			case 'button.sign.out': return 'Sign out';
 			case 'homePage.appBar.title': return 'Home';

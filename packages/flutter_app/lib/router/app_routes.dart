@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../features/authentication/presentation/sign_in_up/sign_in_up_screen.dart';
 import '../pages/initialization_page.dart';
 import '../pages/main/main_page.dart';
 import 'branches/branches.dart';
@@ -20,6 +21,24 @@ class InitializationRoute extends GoRouteData {
   @override
   Page<void> buildPage(BuildContext context, GoRouterState state) {
     return const NoTransitionPage(child: InitializationPage());
+  }
+}
+
+@TypedGoRoute<SignInUpRouteData>(
+  name: SignInUpRouteData.name,
+  path: SignInUpRouteData.path,
+)
+class SignInUpRouteData extends GoRouteData {
+  const SignInUpRouteData();
+
+  static const String name = '/signInUp';
+  static const String path = '/signInUp';
+
+  @override
+  Widget build(BuildContext context, GoRouterState state) {
+    return const SignInUpScreen(
+      isSignIn: true,
+    );
   }
 }
 
