@@ -1,6 +1,6 @@
 # Organization Specific Words
 Aimiee
-altfire
+zakfire
 altive
 miyagawa
 muramatsu
@@ -8,3 +8,4 @@ naipaka
 riscait
 ryunosuke
 ssid
+

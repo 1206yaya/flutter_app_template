@@ -34,6 +34,8 @@ targets:
         generate_for:
           include:
             - "**/*provider.dart"
+            - "**/*repository.dart"
+            - "**/*controller.dart"
             - lib/**/riverpod_example_page/**/*.dart
         options:
           provider_name_suffix: "Provider" # (default)
