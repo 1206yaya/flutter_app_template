@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>jp.co.altive.fat</string>
+	<string>com.u1206yaya.FlutterAppTemplate</string>
 	<key>PROJECT_ID</key>
 	<string>altive-fat</string>
 	<key>STORAGE_BUCKET</key>

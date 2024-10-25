@@ -69,7 +69,7 @@ class DefaultFirebaseOptions {
     storageBucket: 'altive-fat.appspot.com',
     iosClientId:
         '1007652573613-2ggi30iortpdb6gilpfli5ouk6ruckhg.apps.googleusercontent.com',
-    iosBundleId: 'jp.co.altive.fat',
+    iosBundleId: 'com.u1206yaya.FlutterAppTemplate',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -80,6 +80,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'altive-fat.appspot.com',
     iosClientId:
         '1007652573613-2ggi30iortpdb6gilpfli5ouk6ruckhg.apps.googleusercontent.com',
-    iosBundleId: 'jp.co.altive.fat',
+    iosBundleId: 'com.u1206yaya.FlutterAppTemplate',
   );
 }

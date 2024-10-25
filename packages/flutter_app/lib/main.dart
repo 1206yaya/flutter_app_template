@@ -21,7 +21,9 @@ Future<void> main() async {
 
   // If only programmer error occurs, initialize within main().
   // If other exceptions may occur, initialize using initializationProvider.
-  await Firebase.initializeApp(options: firebaseOptionsWithFlavor(flavor));
+  await Firebase.initializeApp(
+    options: firebaseOptionsWithFlavor(flavor),
+  );
 
   final tracker = Tracker();
   // Record errors caught by the Flutter SDK.

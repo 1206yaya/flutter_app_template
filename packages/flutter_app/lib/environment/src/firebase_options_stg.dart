@@ -69,7 +69,7 @@ class DefaultFirebaseOptions {
     storageBucket: 'flutter-app-template-stg.appspot.com',
     iosClientId:
         '502626918852-9h1ius8m1asenmeu9a770orn23jsmbh1.apps.googleusercontent.com',
-    iosBundleId: 'jp.co.altive.fat.stg',
+    iosBundleId: 'com.u1206yaya.FlutterAppTemplate.stg',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -80,6 +80,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'flutter-app-template-stg.appspot.com',
     iosClientId:
         '502626918852-9h1ius8m1asenmeu9a770orn23jsmbh1.apps.googleusercontent.com',
-    iosBundleId: 'jp.co.altive.fat.stg',
+    iosBundleId: 'com.u1206yaya.FlutterAppTemplate.stg',
   );
 }

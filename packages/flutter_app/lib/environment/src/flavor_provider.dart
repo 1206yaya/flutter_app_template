@@ -1,4 +1,3 @@
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'flavor_provider.g.dart';
@@ -7,7 +6,7 @@ part 'flavor_provider.g.dart';
 ///
 /// Need override in top-level ProviderScope.
 @Riverpod(keepAlive: true)
-Flavor flavor(Ref ref) {
+Flavor flavor(FlavorRef ref) {
   throw UnimplementedError();
 }
 

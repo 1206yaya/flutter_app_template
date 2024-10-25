@@ -2,15 +2,17 @@
 
 ## Flavor with App ID
 
-- dev: jp.co.altive.fat.dev
-- stg: jp.co.altive.fat.stg
-- prod: jp.co.altive.fat
+- dev: com.u1206yaya.FlutterAppTemplate.dev
+- stg: com.u1206yaya.FlutterAppTemplate.stg
+- prod: com.u1206yaya.FlutterAppTemplate
 
 ## Features
+
 - Riverpod examples
 - Theme selector
 
 ## App settings
+
 | Category                                 | Description                | Codes                                            |
 | ---------------------------------------- | -------------------------- | ------------------------------------------------ |
 | [FVM](https://github.com/leoafarias/fvm) | Flutter Version Management | [.fvmrc](../../.fvmrc)                           |
@@ -20,24 +22,28 @@
 ## Dependency Packages
 
 ### State Management
+
 - [Riverpod](https://riverpod.dev/)
 
 ### Code Generation
+
 - [freezed](https://pub.dev/packages/freezed)
 - [json_serializable](https://pub.dev/packages/json_serializable)
 
 ### Hooks
+
 - [Flutter Hooks](https://pub.dev/packages/flutter_hooks)
 
 ### Router
+
 - [go_router](https://pub.dev/packages/go_router)
 
 ## App structure
 
 - lib/
-    - commons/
-    - features/
-    - presentation/
+  - commons/
+  - features/
+  - presentation/
   - main.dart
 
 ## Secret files required for Release
@@ -69,6 +75,7 @@ Create JSON files.
   }
 }
 ```
+
 Generate Dart files.
 
 ```shell
@@ -86,6 +93,7 @@ final t = Translations.of(context);
 ## FlutterFire Configure
 
 When should it be re-run?
+
 - Add support for new platforms
 - Start using new Firebase services and products
 
@@ -95,27 +103,27 @@ flutterfire configure --yes \
 --project flutter-app-template-dev \
 --out lib/environment/src/firebase_options_dev.dart \
 --platforms android,ios,macos,web \
---android-package-name jp.co.altive.fat.dev \
---ios-bundle-id jp.co.altive.fat.dev \
---macos-bundle-id jp.co.altive.fat.dev
+--android-package-name com.u1206yaya.FlutterAppTemplate.dev \
+--ios-bundle-id com.u1206yaya.FlutterAppTemplate.dev \
+--macos-bundle-id com.u1206yaya.FlutterAppTemplate.dev
 
 # Stg
 flutterfire configure --yes \
 --project flutter-app-template-stg \
 --out lib/environment/src/firebase_options_stg.dart \
 --platforms android,ios,macos,web \
---android-package-name jp.co.altive.fat.stg \
---ios-bundle-id jp.co.altive.fat.stg \
---macos-bundle-id jp.co.altive.fat.stg
+--android-package-name com.u1206yaya.FlutterAppTemplate.stg \
+--ios-bundle-id com.u1206yaya.FlutterAppTemplate.stg \
+--macos-bundle-id com.u1206yaya.FlutterAppTemplate.stg
 
 # Prod
 flutterfire configure --yes \
 --project altive-fat \
 --out lib/environment/src/firebase_options_prod.dart \
 --platforms android,ios,macos,web \
---android-package-name jp.co.altive.fat \
---ios-bundle-id jp.co.altive.fat \
---macos-bundle-id jp.co.altive.fat
+--android-package-name com.u1206yaya.FlutterAppTemplate \
+--ios-bundle-id com.u1206yaya.FlutterAppTemplate \
+--macos-bundle-id com.u1206yaya.FlutterAppTemplate
 ```
 
 ### Firebase Analytics DebugView
@@ -124,7 +132,7 @@ flutterfire configure --yes \
 
 ```shell
 # Start
-adb shell setprop debug.firebase.analytics.app jp.co.altive.fat.dev
+adb shell setprop debug.firebase.analytics.app com.u1206yaya.FlutterAppTemplate.dev
 # Stop
 adb shell setprop debug.firebase.analytics.app .none.
 ```

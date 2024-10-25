@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:502626918852:android:f7e395467b0e3e5bdfc491",
         "android_client_info": {
-          "package_name": "jp.co.altive.fat.stg"
+          "package_name": "com.u1206yaya.FlutterAppTemplate.stg"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "502626918852-9h1ius8m1asenmeu9a770orn23jsmbh1.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "jp.co.altive.fat.stg"
+                "bundle_id": "com.u1206yaya.FlutterAppTemplate.stg"
               }
             }
           ]

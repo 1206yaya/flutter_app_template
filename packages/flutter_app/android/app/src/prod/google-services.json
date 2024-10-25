@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1007652573613:android:7d7115fc2a21631fbb1124",
         "android_client_info": {
-          "package_name": "jp.co.altive.fat"
+          "package_name": "com.u1206yaya.FlutterAppTemplate"
         }
       },
       "oauth_client": [

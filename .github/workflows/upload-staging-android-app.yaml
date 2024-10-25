@@ -30,7 +30,7 @@ jobs:
         with:
           working-directory: ./packages/flutter_app
           flavor: stg
-          package-name: jp.co.altive.fat.stg
+          package-name: com.u1206yaya.FlutterAppTemplate.stg
           release-track: internal
           service-account-json: ${{ env.SERVICE_ACCOUNT_JSON }}
           upload-keystore-jks: ${{ env.UPLOAD_KEYSTORE_JKS }}

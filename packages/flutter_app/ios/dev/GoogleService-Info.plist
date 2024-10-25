@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1068511233454-jqkcgldo7cro8bsap1j574959nmgfjqe.apps.googleusercontent.com</string>
+	<string>117552215653-5dqqqgp7joq7t8urcl7vcogr8ualelr4.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1068511233454-jqkcgldo7cro8bsap1j574959nmgfjqe</string>
+	<string>com.googleusercontent.apps.117552215653-5dqqqgp7joq7t8urcl7vcogr8ualelr4</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>117552215653-87n8j34nldj8tk7tjdcmunl1fbbrrt1i.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC3qF31ymtLr6G6T7vNtb0O3LVrZnZRVCY</string>
+	<string>AIzaSyA1tQtyju6RFuhJ3B28-m5ccfVihxQ6-5s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1068511233454</string>
+	<string>117552215653</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>jp.co.altive.fat.dev</string>
+	<string>com.u1206yaya.FlutterAppTemplate.dev</string>
 	<key>PROJECT_ID</key>
-	<string>flutter-app-template-dev</string>
+	<string>someapp-dev-dfa74</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutter-app-template-dev.appspot.com</string>
+	<string>someapp-dev-dfa74.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1068511233454:ios:0fbb2ad807bb95dda6f43f</string>
+	<string>1:117552215653:ios:859e132562030e3d6fb88c</string>
 </dict>
 </plist>
